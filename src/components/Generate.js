@@ -6,7 +6,6 @@ import { updateMaze } from '../redux/apiCalls';
 
 export default function Generate({setIndex,grids,setGrids,number,setNumber,changed,setChanged}) {
       
-  const [shortestPath, setShortestPath] = useState()
   const [text,setText] = useState(null)
   const dispatch = useDispatch()
 
@@ -14,8 +13,7 @@ export default function Generate({setIndex,grids,setGrids,number,setNumber,chang
 
   const handleClick = () => {
       const gridData = {
-          grid: grids,
-          shortestPath: shortestPath
+          grid: grids
       }
       updateMaze(gridData,dispatch)
       setIndex(0)

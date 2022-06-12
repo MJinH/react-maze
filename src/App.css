@@ -57,11 +57,17 @@ body {
 
 .menu-card {
   width:15rem;
+  height:12rem;
   list-style: none;
   margin-left: 1rem;
   box-shadow: 10px 10px 10px -5px rgba(25, 42, 70, 0.2);
   border-radius: 20px;
   cursor: pointer;
+}
+
+
+.card-top {
+  height:70%;
 }
 
 .card-img {
@@ -75,8 +81,8 @@ body {
   text-align: left;
   padding: 1rem 0 1rem 1.5rem;
   display:flex;
+  justify-content: center;
   flex-direction: column;
-  padding: 1.5rem;
 }
 
 .option-container {
@@ -325,5 +331,9 @@ body {
   font-size: 0.4rem;
   width:2.5rem;
   height:1.5rem;
+ }
+
+ .description {
+  font-size: 0.5rem;
  }
 }
