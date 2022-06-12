@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-maze/static/css/main.6e5b1264.css",
-    "main.js": "/react-maze/static/js/main.8cc592e9.js",
+    "main.js": "/react-maze/static/js/main.715fdc51.js",
     "index.html": "/react-maze/index.html",
     "main.6e5b1264.css.map": "/react-maze/static/css/main.6e5b1264.css.map",
-    "main.8cc592e9.js.map": "/react-maze/static/js/main.8cc592e9.js.map"
+    "main.715fdc51.js.map": "/react-maze/static/js/main.715fdc51.js.map"
   },
   "entrypoints": [
     "static/css/main.6e5b1264.css",
-    "static/js/main.8cc592e9.js"
+    "static/js/main.715fdc51.js"
   ]
 }
